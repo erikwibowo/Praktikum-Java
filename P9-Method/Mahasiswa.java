@@ -1,27 +1,28 @@
 public class Mahasiswa{
 
-	int nis;
+	int nim;
 	String nama_mhs;
 
-	public Mahasiswa(){
+	public Mahasiswa(int n){
 
 	}
 
-	public void setNim(){
+	public void setNim(int ni){
 
 	}
 
 	public int getNim(){
 
-		return nis;
+		return nim;
 	}
 
-	public void detNama(String na){
+	public void setNama(String na){
 
 	}
 
 	public String getNama(){
 		
+		return nama_mhs;
 	}
 
 }
